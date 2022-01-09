@@ -1,7 +1,7 @@
 import React from "react";
 import "./Dictionary.css";
 
-export default function () {
+export default function Dictionary() {
   return (
     <div className="container">
       <div className="Dictionary">

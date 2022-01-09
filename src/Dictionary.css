@@ -1,7 +1,12 @@
 .Dictionary-search-button {
-  background-color: #3face3;
+  background: radial-gradient(
+    849px at 0.9% 2.8%,
+    rgb(255, 157, 255) 0%,
+    rgb(255, 102, 142) 43.4%,
+    rgb(255, 31, 56) 83.1%
+  );
   color: white;
   font-size: 18px;
   border-radius: 4px;
-  border: 1px solid #3face3;
+  border: none;
 }

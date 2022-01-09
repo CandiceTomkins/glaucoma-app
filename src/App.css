@@ -1,10 +1,18 @@
 .App {
   text-align: center;
   font-family: "Noto Sans", sans-serif;
+  max-width: 600px;
+  background: linear-gradient(
+    135deg,
+    rgb(82, 229, 231) 10%,
+    rgb(19, 12, 183) 100%
+  );
+  margin: 0 auto;
+  color: white;
 }
 
 .App-logo {
-  max-width: 200px;
+  max-width: 100px;
   display: block;
   margin: 0 auto;
   background-color: white;
