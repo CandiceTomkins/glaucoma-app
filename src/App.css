@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.App-logo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  background-color: white;
+}
+.App-search-button {
+  background-color: #3face3;
+  color: white;
+  font-size: large;
+  font-size: 28px;
+
+  border-radius: 4px;
+  border: 1px solid #3face3;
+}
+.App footer {
+  font-size: 11px;
+  margin: 10px 0;
+}
