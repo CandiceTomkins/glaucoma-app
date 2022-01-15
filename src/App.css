@@ -21,6 +21,7 @@ h1 {
   font-size: 28px;
 }
 .App footer {
+  text-align: center;
   font-size: 11px;
-  margin: 10px 0;
+  margin: 30px 0;
 }
