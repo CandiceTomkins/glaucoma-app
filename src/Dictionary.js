@@ -6,12 +6,11 @@ export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
 
   function handleResponse(response) {
-    console.log(response);
+    console.log(response.data[0]);
   }
 
   function search(event) {
     event.preventDefault();
-    alert(`searching for ${keyword}`);
 
     let apiKey = "58d74ff9-14d2-4e17-a862-79d29a17d298";
     let apiUrl = `https://www.dictionaryapi.com/api/v3/references/medical/json/${keyword}?key=${apiKey}`;
