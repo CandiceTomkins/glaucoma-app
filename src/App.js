@@ -1,16 +1,21 @@
-import logo from "./white-eye.png";
+import React from "react";
 import Dictionary from "./Dictionary";
+import MyStory from "./MyStory";
+import logo from "./eye-purple-blue.jpeg";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-      <main>
+      <div className="App-header">
+        <img src={logo} alt="logo" className="App-logo img-fluid" />
         <h1>Glaucoma App</h1>
+      </div>
+
+      <main>
         <Dictionary />
+        <MyStory />
       </main>
       <footer className="App-footer">
         <small>coded by Candice Tomkins</small>

@@ -2,20 +2,23 @@
   text-align: center;
   font-family: "Noto Sans", sans-serif;
   max-width: 600px;
-  background: linear-gradient(
-    135deg,
-    rgb(82, 229, 231) 10%,
-    rgb(19, 12, 183) 100%
-  );
+  background: white;
   margin: 0 auto;
-  color: white;
+  color: black;
 }
 
 .App-logo {
   max-width: 100px;
   display: block;
   margin: 0 auto;
-  background-color: white;
+  background: none;
+}
+
+.App header {
+  margin: 10px;
+}
+h1 {
+  font-size: 28px;
 }
 .App footer {
   font-size: 11px;

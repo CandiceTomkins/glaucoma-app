@@ -4,10 +4,11 @@ import "./Dictionary.css";
 export default function Dictionary() {
   return (
     <div className="container">
-      <div className="Dictionary">
+      <div className="dictionary">
+        <h2>Glaucoma Dictionary</h2>
         <form>
           <input
-            className="height: 100px"
+            className=""
             type="search"
             placeholder="Search for something..."
           />
@@ -15,7 +16,7 @@ export default function Dictionary() {
           <input
             className="Dictionary-search-button"
             type="submit"
-            value="👀 Click Here"
+            value="Let's go!"
           />
         </form>
       </div>
