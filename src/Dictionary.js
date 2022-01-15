@@ -25,7 +25,7 @@ export default function Dictionary() {
 
   return (
     <div className="dictionary">
-      <h2>Glaucoma Dictionary</h2>
+      <h2 className="section-title">Glaucoma Dictionary</h2>
       <form onSubmit={search}>
         <input
           className=""

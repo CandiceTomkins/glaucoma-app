@@ -8,8 +8,11 @@ export default function MyStory() {
       <h2>My Story</h2>
 
       <p>
-        My name is Candy. I'm 33 and I was diagnosed with chronic angle-closure
-        glaucoma in 2021.
+        My name is Candy. In 2021 I was diagnosed with chronic angle-closure
+        glaucoma at the age of 32. Faced with a complicated diagnosis, I took to
+        the internet to research, but I found very little relating to
+        angle-closure and glaucoma under 40. I decided to make my own app
+        instead.
       </p>
 
       <img
