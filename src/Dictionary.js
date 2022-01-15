@@ -1,15 +1,24 @@
 import React, { useState } from "react";
+import axios from "axios";
 import "./Dictionary.css";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
 
+  function handleResponse(response) {
+    console.log(response);
+  }
+
   function search(event) {
     event.preventDefault();
     alert(`searching for ${keyword}`);
+
+    let apiKey = "58d74ff9-14d2-4e17-a862-79d29a17d298";
+    let apiUrl = `https://www.dictionaryapi.com/api/v3/references/medical/json/${keyword}?key=${apiKey}`;
+    axios.get(apiUrl).then(handleResponse);
   }
 
-  function handleKeywordChange(event) {
+  https: function handleKeywordChange(event) {
     setKeyword(event.target.value);
   }
 
