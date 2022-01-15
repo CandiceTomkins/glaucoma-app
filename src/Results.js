@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Result(props) {
+export default function Results(props) {
   if (props.results) {
     return (
-      <div className="results">
-        <h2>hello</h2>
+      <div className="Results">
+        <h2>{props.results.meta.id}</h2>
       </div>
     );
   } else {
