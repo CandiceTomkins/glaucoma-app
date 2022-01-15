@@ -6,7 +6,7 @@ export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
 
   function handleResponse(response) {
-    console.log(response.meta.id);
+    console.log(response.data[0]);
   }
 
   function search(event) {
@@ -17,7 +17,7 @@ export default function Dictionary() {
     axios.get(apiUrl).then(handleResponse);
   }
 
-  https: function handleKeywordChange(event) {
+  function handleKeywordChange(event) {
     setKeyword(event.target.value);
   }
 
