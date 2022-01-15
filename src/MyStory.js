@@ -10,18 +10,18 @@ export default function MyStory() {
           <h2>My Story</h2>
         </div>
         <div className="col-6">
-          <img
-            src={candy}
-            alt="candy-yellow-white-house"
-            className="candy img-fluid"
-          />
+          <p>
+            My name is Candy. I'm 33 and I was diagnosed with chronic
+            angle-closure glaucoma in 2021.
+          </p>
         </div>
         <div className="row">
           <div className="col-6">
-            <p>
-              My name is Candy. I'm 33 and I was diagnosed with chronic
-              angle-closure glaucoma in 2021.
-            </p>
+            <img
+              src={candy}
+              alt="candy-yellow-white-house"
+              className="candy img-fluid"
+            />
           </div>
         </div>
       </div>
