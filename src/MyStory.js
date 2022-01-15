@@ -1,6 +1,6 @@
 import React from "react";
 import "./MyStory.css";
-import candy from "candy-yellow-white-house.jpeg";
+import candy from "./candy-yellow-white-house.jpeg";
 
 export default function MyStory() {
   return (
