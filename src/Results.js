@@ -7,7 +7,6 @@ export default function Results(props) {
       <div className="Results">
         <h2>{props.results.meta.id}</h2>
         <p>{props.results.shortdef}</p>
-        <p>{props.results.hom.hwi}</p>
       </div>
     );
   } else {
