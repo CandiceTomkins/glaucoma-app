@@ -4,14 +4,13 @@
   max-width: 600px;
   background: white;
   margin: 0 auto;
-  color: #1c304a;
+  color: #0f2d40;
 }
 
 .App-logo {
-  max-width: 100px;
+  max-height: 200px;
   display: block;
   margin: 0 auto;
-  background: none;
 }
 
 .App header {

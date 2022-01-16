@@ -1,7 +1,7 @@
 import React from "react";
 import Dictionary from "./Dictionary";
 import MyStory from "./MyStory";
-import logo from "./eye-purple-blue.jpeg";
+import logo from "./glaucoma-app-logos_transparent.png";
 
 import "./App.css";
 
@@ -11,11 +11,11 @@ function App() {
       <div className="container">
         <div className="App-header">
           <img src={logo} alt="logo" className="App-logo img-fluid" />
-          <h1>Glaucoma App</h1>
         </div>
 
         <main>
           <Dictionary />
+          <br />
           <MyStory />
         </main>
         <footer className="App-footer">
