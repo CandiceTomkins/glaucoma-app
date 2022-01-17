@@ -31,7 +31,7 @@ export default function Dictionary() {
           className=""
           type="search"
           onChange={handleKeywordChange}
-          placeholder="Search for something..."
+          placeholder="Search..."
           autoFocus={true}
         />
 
