@@ -26,6 +26,7 @@ export default function Dictionary() {
   return (
     <div className="dictionary">
       <h2 className="section-title">Glaucoma Dictionary</h2>
+
       <form onSubmit={search}>
         <input
           className=""
@@ -43,6 +44,15 @@ export default function Dictionary() {
       </form>
 
       <Results results={results} />
+      <small>
+        Comprehensive medical dictionary from the reference experts at{" "}
+        <a
+          href="https://www.merriam-webster.com/medical"
+          alt="Merriam Webster link"
+        >
+          Merriam Webster
+        </a>
+      </small>
     </div>
   );
 }

@@ -1,6 +1,9 @@
 import React from "react";
 import Dictionary from "./Dictionary";
 import MyStory from "./MyStory";
+import Medication from "./Medication";
+import Resources from "./Resources";
+
 import logo from "./glaucoma-app-logos_transparent.png";
 
 import "./App.css";
@@ -17,6 +20,10 @@ function App() {
           <Dictionary />
           <br />
           <MyStory />
+          <br />
+          <Medication />
+          <br />
+          <Resources />
         </main>
         <footer className="App-footer">
           <small>coded by Candice Tomkins</small>
