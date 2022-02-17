@@ -8,11 +8,18 @@ export default function MyStory() {
       <h2 className="section-title">My Story</h2>
 
       <p className="myStory">
-        My name is Candy. In 2021 I was diagnosed with chronic angle-closure
-        glaucoma at the age of 32. Faced with a complicated diagnosis, I turned
-        to the internet for support. I found found limited information relating
-        to angle-closure and glaucoma under 40, so I set out on a mission to
-        create an app for people like me.
+        My name is Candy, and I have advanced chronic angle-closure glaucoma. In
+        2021 I suffered an acute-angle closure attack at the age of 32. For a
+        few months nothing could contol my IOP. At one point I was a few days
+        away from loosing my vision in my right eye completely. Things got
+        really scary, really quickly. I turned to the internet for support, but
+        found almost no resources for either angle-closure or glaucoma in people
+        under 40. I spent the first 6 months after diagnosis studying the
+        disease so I could make educated decisions on my treatment. I'm now on a
+        mission to share my journey, and everything I found along the way. I
+        hope to create a place where others (particularly those that fall
+        outside the usual bracket for glaucoma) can feel more supported,
+        understood and less alone on their own journey.
       </p>
 
       <img

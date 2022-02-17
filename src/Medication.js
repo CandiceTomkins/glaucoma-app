@@ -12,7 +12,7 @@ export default function Medication() {
         <strong>How it works:</strong> Decreases the amount of fluid within the
         eye
         <br />
-        <strong>Brand Names:</strong> Betimol.Istalol.Timoptic.
+        <strong>Common brand names:</strong> Betimol. Istalol. Timoptic.
         Combigan(combined with brimonidine)
         <br />
       </p>
