@@ -6,6 +6,10 @@
   font-weight: 600;
   text-align: left;
 }
+.drug-name:hover {
+  background: #0f2d40;
+  color: #ed6db4;
+}
 
 .medication-type {
   text-align: left;

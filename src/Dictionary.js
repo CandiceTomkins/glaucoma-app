@@ -45,7 +45,8 @@ export default function Dictionary() {
 
       <Results results={results} />
       <small>
-        Comprehensive medical dictionary API from{" "}
+        Comprehensive medical dictionary API from
+        <br />
         <a
           href="https://www.merriam-webster.com/medical"
           alt="Merriam Webster link"
